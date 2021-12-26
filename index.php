@@ -62,10 +62,7 @@
 			// oposite button
 			var opbtn_name = (operand=="forward") ? "Min" : "Plus";
 			opbtn=document.getElementById("toggle" + unit + opbtn_name);
-			
-			
-			
-			
+
 			// color
 			e.style.backgroundColor="green";
 			e.style.color="white";
@@ -115,10 +112,7 @@
 						val_sec = parseInt(document.getElementById("txt_sec" + i + "_" + j).value);
 						val_min = parseInt(document.getElementById("txt_min" + i + "_" + j).value);
 						val_hr = parseInt(document.getElementById("txt_hr" + i + "_" + j).value);
-						
-						//alert(val_mil);
-						
-						
+
 						// start with milliseconds------------------------------------------------------------------------------------------------------------
 						if(op_mil=="forward")
 						{
