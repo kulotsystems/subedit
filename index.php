@@ -250,8 +250,8 @@
 </head>
 
 <body>
+    <center>
 	<input type="hidden" id="allow_timer" value="false">
-	<center>
 	<p>
 		<small>
 		Downloaded a subtitle but the timing is inconsistent?<br>
@@ -262,12 +262,12 @@
 		(hr:min:sec,mil)</font> - that is what we're going to edit here.
 		</small>
 	</p>
-	
+
+    <form name="frmSubtitle" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>" enctype="multipart/form-data">
 	<p>
-		<form name="frmSubtitle" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>" enctype="multipart/form-data">
-			Now, where's the subtitle file?
-			<input type="file" name="fSubTitle">
-			<input type="submit" name="btnUpload" value="OK">
+        Now, where's the subtitle file?
+        <input type="file" name="fSubTitle">
+        <input type="submit" name="btnUpload" value="OK">
 	</p>
 	
 	<?php
