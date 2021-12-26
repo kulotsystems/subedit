@@ -4,7 +4,7 @@ I wrote this in year 2014 for myself who was very addicted to watching movies, b
 I was also just starting to learn and develop small projects using `PHP` and `JavaScript` during that time,
 so this project was a perfect way to get my hands dirty!
 
-Please forgive my younger self for any dirty and unsecured code.
+Please forgive my younger self for any dirty and less secure code.
 
 <br>
 
