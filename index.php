@@ -118,7 +118,6 @@
 							val_mil += inc_mil;
 							if(val_mil>999)
 							{
-								//alert('here');
 								val_sec += parseInt(val_mil/1000);
 								val_mil %= 1000;
 								if(val_sec>59)
