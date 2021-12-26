@@ -84,8 +84,7 @@
 				var op_mil = document.getElementById("operation_Mil").value;
 				var op_sec = document.getElementById("operation_Sec").value;
 				var op_min = document.getElementById("operation_Min").value;
-				
-				//alert("ahehe");
+
 				var inc_mil = document.getElementById("txtMil_inc").value.trim();
 				if(inc_mil=="") inc_mil="0";
 				var inc_sec = document.getElementById("txtSec_inc").value.trim();
@@ -98,7 +97,6 @@
 				var inc_min = parseInt(inc_min);
 				
 				var ctr_=document.getElementById("ctr").value;
-				//alert(ctr_);
 				for(var i=1; i<=3; i++)
 				{
 					for(var j=1; j<=parseInt(ctr_); j++)
