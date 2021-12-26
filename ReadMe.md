@@ -2,7 +2,7 @@
 This is a tool to sync movie subtitles in `SRT` format.
 I wrote this in year 2014 for myself who was very addicted to watching movies, but not very good at comprehending English dialogs.
 I was also just starting to learn and develop small projects using `PHP` and `JavaScript` during that time,
-so this project is a perfect way to get my hands dirty!
+so this project was a perfect way to get my hands dirty!
 
 Please forgive my younger self for any dirty and unsecured code.
 
@@ -27,7 +27,7 @@ Sample URL: `http://localhost/subedit`.
 To sync movie subtitles:
 <ol>
     <li>Browse and upload your <code>.srt</code> file.</li>
-    <li><b>Delay</b> or <b>Forward</b> its timing by milliseconds, seconds, or minutes.</li>
+    <li>Toggle <b>Delay</b> or <b>Forward</b> its timing by milliseconds, seconds, or minutes by entering values in the respective fields.</li>
     <li>
         Confirm your tweaks and copy the result script to a new or the previous <code>.srt</code> file.
         <small>
